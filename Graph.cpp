@@ -17,10 +17,7 @@ Graph::Graph(int nbs){   //Constructeur de Graph
 
 void Graph::Add_Sommet(int nws){
 	
-	//if(sommet!=NULL) //Tester s'il existe de place dans la liste
 	sommet.push_back(nws);  //Ajouter le sommet à la fin de la liste
-	//else
-	//cout<<"la liste est plein."; //Si non il affiche une erreur sous forme d'un message
 	
 }
 
