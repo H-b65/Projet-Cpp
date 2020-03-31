@@ -1,4 +1,4 @@
-#include "../Header/Graph.h"
+#include "Graph.h"
 #include <iostream> 
 #include <list> 
 #include <iterator> 
@@ -18,13 +18,13 @@ Graph::Graph(int nbs){   //Constructeur de Graph
 void Graph::Add_Sommet(int nws){
 	
 	//if(sommet!=NULL) //Tester s'il existe de place dans la liste
-	sommet.push_back(nws);  //Ajouter le sommet à la fin de la liste
+	sommet.push_back(nws);  //Ajouter le sommet Ã  la fin de la liste
 	//else
 	//cout<<"la liste est plein."; //Si non il affiche une erreur sous forme d'un message
 	
 }
 
-void Graph::Add_Arete(int src , int dst){  //Méthode d'ajouter une arete(graphe non orienté)
+void Graph::Add_Arete(int src , int dst){  //MÃ©thode d'ajouter une arete(graphe non orientÃ©)
 
 
 adj[src].push_back(dst);  //Mettre le sommet 'dst' dans la liste d'adjacent du sommet 'src'
