@@ -19,13 +19,17 @@ class Graph
     	 
         ~Graph();    //Destructeur de Graph
         
-        void Add_Sommet(int);    //MÈthode d'ajouter un sommet
+        void Add_Sommet(int);    //M√©thode d'ajouter un sommet
     	
-    	void Add_Arete(int , int);   //MÈthode d'ajouter une arete  (Graphe non orientÈ)
+    	void Add_Arete(int , int);   //M√©thode d'ajouter une arete  (Graphe non orient√©)
     	
-    	void Add_Arc(int , int);   //MÈthode d'ajouter un arc  (Graphe orientÈ)
+    	void Add_Arc(int , int);   //M√©thode d'ajouter un arc  (Graphe orient√©)
 	
-    	void Affiche_Graph(); 	//MÈthode d'affichage du graphe 
+	void Delete_Arc(int , int);   //la supprission d'un arc  (Graphe orient√©)
+	
+	void Delete_Arete(int , int);   //la supprission d'une arete  (Graphe non orient√©)
+    	
+    	void Affiche_Graph(); 	//M√©thode d'affichage du graphe 
        
 };
 
