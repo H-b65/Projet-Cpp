@@ -1,4 +1,4 @@
-#include "Source/Graph.cpp"
+#include "Graph.cpp"
 #include <iostream>
 
 
@@ -6,9 +6,9 @@ using namespace std;
 
 int main(){
 	
-	Graph G(8);//Graphe à 8 sommets
+	Graph G(8);//Graphe Ã  8 sommets
 
-	G.Add_Sommet(3);//Créer des sommets
+	G.Add_Sommet(3);//CrÃ©er des sommets
 	G.Add_Sommet(2);
 	G.Add_Sommet(1);
 	G.Add_Sommet(4);
@@ -16,7 +16,7 @@ int main(){
 	G.Add_Sommet(6); 
 	G.Add_Sommet(5); 
 	cout<<"***********************************"<<endl;
-	G.Add_Arete(1,2);//Créer des arrete
+	G.Add_Arete(1,2);//CrÃ©er des arrete
 	G.Add_Arete(3,2);
 	G.Add_Arete(3,1);
 	G.Add_Arete(4,1);
