@@ -34,6 +34,13 @@ void Graph::Add_Arc(int src , int dst){
 	adj[src].push_back(dst);  //Mettre le sommet 'dst' dans la liste d'adjacent du sommet 'src'
 	
 }
+void Graph::Delete_Arc(int src,int dst){
+adj[src].remove(dst);   //Supprimer le sommet 'dst' de la liste d'adjacence du sommet 'src'
+}
+Void Graph::Delete_Arete(int S1,int S2){
+adj[S1].remove(S2);   //Supprimer le sommet 'S2' de la liste d'adjacence du sommet 'S1'
+adj[S2].remove(S1);  ////Supprimer le sommet 'S1' de la liste d'adjacence du sommet 'S2'
+}
 
 
  void Graph::Affiche_Graph() 
